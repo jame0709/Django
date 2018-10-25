@@ -6,7 +6,7 @@ import dj_database_url
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://dashboard.heroku.com/apps/djangowitley',  # heroku url
+    '*',  # heroku url
 ]
 
 DATABASES = {'default': dj_database_url.config()}
